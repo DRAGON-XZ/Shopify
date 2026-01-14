@@ -181,8 +181,8 @@ $geocoding = curl_exec($ch);
 
 $geocoding_data = json_decode($geocoding, true);
 
-$lat = (float) $geocoding_data[0]['lat'];
-$lon = (float) $geocoding_data[0]['lon'];
+$lat = isset($geocoding_data[0]['lat']) ? (float) $geocoding_data[0]['lat'] : 0.0;
+$lon = isset($geocoding_data[0]['lon']) ? (float) $geocoding_data[0]['lon'] : 0.0;
 
 // echo "<li>lat: $lat<li>";
 // echo "<li>lon: $lon<li>";
